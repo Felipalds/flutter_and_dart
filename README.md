@@ -1,16 +1,26 @@
-# flutter_first_app
+# flutter-and-dart
+Flutter is a tool to develop cross-plataform apps
 
-A new Flutter project.
+## What is Flutter
+- software development kit (SDK), that are tools to compile your code to native machine code and develop with ease
+- a framework, reusable UI buildings blocks (widgets, dropdowns, etc) -> Dart
 
-## Getting Started
+## Whats is Dart
+- Dart is a front-end language to create mobile and web apps, UIs, etc.
+- Object oriented and strongly typed
 
-This project is a starting point for a Flutter application.
+## Flutter and Dart environment
+- Dart is the programming language
+- Flutter is the framework and SDK
 
-A few resources to get you started if this is your first Flutter project:
+## Flutter - Everything is a widget!
+> Code snipped
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Dart uses Flutter's API
+- It is not compiled to both, iOS and Android native code. Instead, Flutter has it's custom implementations, controlling every pixel of the screen.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Flutter for iOS
+- XCode
+
+## Flutter for Android
+- Android Studio
