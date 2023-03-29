@@ -15,6 +15,7 @@ Flutter is a tool to develop cross-plataform apps
 
 ## Flutter - Everything is a widget!
 > Code snipped
+> Every widget is a Dart class!
 
 ## Dart uses Flutter's API
 - It is not compiled to both, iOS and Android native code. Instead, Flutter has it's custom implementations, controlling every pixel of the screen.
@@ -24,3 +25,18 @@ Flutter is a tool to develop cross-plataform apps
 
 ## Flutter for Android
 - Android Studio
+
+## Files and Folders
+1. .idea - used for Android Studio IDE
+2. .vscode - used for VSCode IDE
+3. android - code for compile to Android
+4. build - code built
+5. ios - code for compile to iOS
+6. lib - our code in Dart goes here
+7. test - code for automated tests
+8. pubspec.yaml and pubspec.lock is the packagejson for NodeJS
+9. other files are just configurations by Flutter
+
+## Types of Widgets
+1. Visibles like buttons, texts, cards...
+2. Invisibles like columns, rows, lists...
