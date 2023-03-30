@@ -40,3 +40,17 @@ Flutter is a tool to develop cross-plataform apps
 ## Types of Widgets
 1. Visibles like buttons, texts, cards...
 2. Invisibles like columns, rows, lists...
+
+## States
+- State is Data/Information used by your app
+- Example: Autheticated Users, Loaded Jobs...
+
+### Stateless
+- Data can change externally
+- Input data -> widget -> Renders UI
+- Every time the input data changes, it is rebuild
+
+### Stateful
+- Data can change externally AND internally
+- Input data -> widget -> internal state-> Renders UI
+- Every time both or external or internal state changes, it is rebuild
