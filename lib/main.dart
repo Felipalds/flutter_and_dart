@@ -1,16 +1,18 @@
 import 'package:flutter/material.dart';
 
+import './question.dart';
+
 void main() => runApp(MyApp()); //arrow function
 
 class MyApp extends StatefulWidget {
 
   @override
   State<StatefulWidget> createState() {
-    return MyAppState();
+    return _MyAppState();
   }
 }
 
-class MyAppState extends State<MyApp>{
+class _MyAppState extends State<MyApp>{
 
   void answerQuestion() {
     setState(() {
@@ -35,12 +37,12 @@ class MyAppState extends State<MyApp>{
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text("Jared Pardinho"),
+          title: Text("APP Sobre o Jared"),
         ),
         body: Center(
           child: Column(
             children: [
-                  Text(questions[questionIndex]),
+                  Question(questions[questionIndex]),
                   ElevatedButton(onPressed: answerQuestion, child: Text("Pastel")),
                   ElevatedButton(onPressed: answerQuestion, child: Text("Feminista")),
                   ElevatedButton(onPressed: answerQuestion, child: Text("Gordas")),

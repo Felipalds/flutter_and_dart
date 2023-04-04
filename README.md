@@ -54,3 +54,6 @@ Flutter is a tool to develop cross-plataform apps
 - Data can change externally AND internally
 - Input data -> widget -> internal state-> Renders UI
 - Every time both or external or internal state changes, it is rebuild
+
+## Creating Widgets
+1. Every file shoud have only one Widget
